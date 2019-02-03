@@ -1,0 +1,22 @@
+{
+  "name": "@jaspero/open-api-spec-generator",
+  "version": "0.0.1",
+  "description": "Generates an open api spec json file from a typescript file",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "bin": {
+    "jp-generate-spec": "index.js"
+  },
+  "keywords": [
+    "generator"
+  ],
+  "author": "Filip Lauc",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "fs-extra": "^7.0.1",
+    "typescript": "^3.3.1"
+  }
+}
